@@ -6,9 +6,9 @@ body {
     color: #333;
     text-align: center;
 }
-unstyle{
-    color: red
-    
+.unstyle{
+    color: purple;
+        
 }
 header {
     background-color: #333;

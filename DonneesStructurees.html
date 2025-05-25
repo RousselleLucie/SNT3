@@ -25,8 +25,51 @@
 
 
 <h2>Données structurées</h2>
-<p>Ces données structurées sont un format normalisé permettant de fournir des informations sur une page et de classer le contenu de cette page. 
+<p>Repères historiques
+1930 : utilisation des cartes perforées, premier support de stockage de données ;
+1956 : invention du disque dur permettant de stocker de plus grandes quantités de données, avec
+un accès de plus en plus rapide ;
+1970 : invention du modèle relationnel (E. L. Codd) pour la structuration et l'indexation des bases
+de données ;
+1979 : création du premier tableur, VisiCalc ;
+2009 : Open Government Initiative du président Obama ;
+2016 : Réglement Général sur la Protection des Données dans l'Union Européenne.
+Données et informations
+  
+  
+  Ces données structurées sont un format normalisé permettant de fournir des informations sur une page et de classer le contenu de cette page. 
   Par exemple, sur une page de recette, il peut s'agir des ingrédients, du temps et de la température de cuisson, des calories, etc.
+  Il est important de noter qu'une personne physique peut être identifiée :
+
+    de manière directe (exemple : nom et prénom)
+    de manière indirecte (exemple : par un numéro de téléphone, une plaque d'immatriculation, etc.)
+
+"Descripteurs":
+  
+ Si on veut gérer une collection de chansons, on a besoin de décrire chaque objet
+ chanson par les mêmes catégories de données qu'on appelle des descripteurs. La
+ valeur d'un descripteur est une donnée et doit appartenir au domaine qui caractérise le
+ descripteur, on peut ainsi comparer les données de deux chansons (leur année par
+  exemple).
+
+  Une collection regroupe des objets partageant les mêmes descripteurs (par exemple, une
+collection de chansons). La structure de table permet de présenter une collection : les
+objets en ligne, les descripteurs en colonne et les données à l'intersection. Les données
+sont alors dites structurées
+
+  Le format de fichier CSV (Comma-Separated Values) est un format de fichier texte
+utilisé pour enregistrer des données structurées en table :
+chaque titre de colonne correspond à un descripteur
+chaque ligne contient l'enregistrement des données d'un objet : les valeurs
+pour chaque descripteur sont séparées par un symbole (virgule, point virgule
+ou tabulation selon le type de format CSV).
+Un exemple de table avec deux descripteurs, trois enregistrements et le symbole ','
+comme séparateur :
+Nom,Prénom,Âge
+Yamal,Lamine,17
+Mbappé,Kylian,25
+Foden,Phil,24
+
 </p>
  <p><h5> <a href="./index.html"> Retour page principale</a></h5></p> 
 

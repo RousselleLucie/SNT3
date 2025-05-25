@@ -13,6 +13,9 @@ p {
     position: static;
     text-align: center;
 }
+h1{
+    text-align:center;
+}
 .positioned {
     font-family: sans-serif;
     margin: 150;

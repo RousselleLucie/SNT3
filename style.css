@@ -4,6 +4,13 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
+    
+}
+p {
+    font-family: sans-serif;
+    margin: 10;
+    padding: 10;
+    position: static;
     text-align: center;
 }
 .positioned {
@@ -17,14 +24,7 @@ body {
     top: 30;
     left: 30;
 }
-p {
-    font-family: sans-serif;
-    margin: 10;
-    padding: 10;
-    position: static;
 
-    
-}
 .unstyle{
     color: purple;
         

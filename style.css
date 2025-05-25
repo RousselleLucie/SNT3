@@ -11,11 +11,12 @@ body {
     margin: 150;
     padding: 150;
     position: static;
+    text-align: left;
     border: 3 solid blue;
     color: #333;
     text-align: center;
-    top: 30px;
-        left: 30px;
+    top: 30;
+    left: 30;
 }
 p {
     font-family: sans-serif;

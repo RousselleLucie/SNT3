@@ -13,7 +13,6 @@ body {
     position: static;
     text-align: left;
     border: 3 solid blue;
-    color: #333;
     text-align: center;
     top: 30;
     left: 30;
@@ -23,9 +22,8 @@ p {
     margin: 10;
     padding: 10;
     position: static;
-    background: white;
-    color: #333;
-    text-align: center;
+
+    
 }
 .unstyle{
     color: purple;

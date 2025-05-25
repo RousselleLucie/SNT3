@@ -16,6 +16,12 @@ p {
 h1{
     text-align:center;
 }
+h2{
+    text-align:center;
+}
+h5{
+    text-align:center;
+}
 .positioned {
     font-family: sans-serif;
     margin: 150;

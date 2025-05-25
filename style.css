@@ -6,6 +6,15 @@ body {
     color: #333;
     text-align: center;
 }
+
+p {
+    font-family: sans-serif;
+    margin: 10;
+    padding: 10;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
 .unstyle{
     color: purple;
         
